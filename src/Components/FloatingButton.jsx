@@ -5,7 +5,7 @@ const FloatingButton = () => {
     return (
         <div className='z-20 fixed top-[15%] right-[120px] md:right-[140px] md:top-[25%]'>
             <div className='absolute z-10 flex w-[80px] h-[80px] text-center items-center justify-items-center'>
-                <Link to='https://moonlightmodel.com.np/admission/' className="text-white font-bold">
+                <a href='https://moonlightmodel.com.np/admission/' className="text-white font-bold">
                     <div>
                         <div className='absolute top-[11px] left-[11px] fb rotate-[28deg] h-[11px] w-[11px]'></div>
                         <div className='absolute top-[30px] left-[6px] fb h-[11px] w-[11px]'></div>
@@ -23,7 +23,7 @@ const FloatingButton = () => {
                         <div className='absolute top-[-2px] left-[20px] fb rotate-[-320deg] h-[11px] w-[11px]'></div>
                     </div>
                     <h4 className='absolute bg-primary rounded-full w-[80px] h-[78px] text-center items-center pt-3 left-[16px] top-[1px]'>Apply Now!</h4>
-                </Link>
+                </a>
             </div>
         </div>
     )

@@ -11,7 +11,7 @@ import NavLinks from './NavLinks';
 import { IoClose } from "react-icons/io5";
 import GoToTopButton from '../GoToTopButton';
 
-const Navbar = () => {
+const Navbar = ({ contacts }) => {
     const [mbmenu, setmbmenu] = useState(false);
     const [theme, settheme] = useState(true);
     const [isVisible, setIsVisible] = useState(false);
@@ -35,20 +35,20 @@ const Navbar = () => {
                     <ul className="flex">
                         <li className="flex border-r pr-4 pl-4 justify-items-center">
                             <FiMail className='my-2 mx-1' />
-                            <Link to="mailto:school@moonligtmodel.com.np" className='text-lg'>
-                                school@moonligtmodel.com.np
+                            <Link to={`mailto:${contacts ? contacts.mail : "school@moonlightmodel.com.np"}`} className='text-lg'>
+                                {contacts ? contacts.mail : "school@moonlightmodel.com.np"}
                             </Link>
                         </li>
                         <li className="flex border-r pr-4 pl-4">
                             <MdPermPhoneMsg className='my-2 mx-1' />
-                            <Link to="tel:+9779814325847" className='text-lg'>
-                                9814325847
+                            <Link to={`tel:${contacts ? contacts.number : "9814325847"}`} className='text-lg'>
+                                {contacts ? contacts.number : "9814325847"}
                             </Link>
                         </li>
                         <li className="flex pl-4">
                             <FaLocationDot className='my-2 mx-1' />
-                            <Link to="https://maps.app.goo.gl/3UvqBwavuEvsaTvp8" className='text-lg'>
-                                Ratuwamai-4, Morang
+                            <Link to={`${contacts ? contacts.map : "https://maps.app.goo.gl/3UvqBwavuEvsaTvp8"}`} className='text-lg'>
+                                {contacts ? contacts.address : "Ratuwamai-4, Morang"}
                             </Link>
                         </li>
                     </ul>

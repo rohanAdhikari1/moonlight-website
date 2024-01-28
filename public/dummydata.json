@@ -1,0 +1,21 @@
+{
+    "backgroundImage":"/school.jpg",
+    "contacts":{
+        "number":"9814325847",
+        "address":"Ratuwamai-4, Morang",
+        "map":"https://maps.app.goo.gl/3UvqBwavuEvsaTvp8",
+        "mail":"school@moonligtmodel.com.np"
+    },
+    "introduction":{
+        "image":"/schoolbuilding.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima culpa ea hic ipsam dicta earum minus, reiciendis ullam iste?"
+    },
+    "slogan":"Quality of Education is our commitment.",
+    "welcome":[
+        {
+            "name":"Khem ADhikari",
+            "designation" : "The Vice Principle",
+            "message":"Some thing Some thing Some thing"
+        }
+    ]
+}

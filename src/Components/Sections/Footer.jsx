@@ -6,7 +6,7 @@ import { FiMail } from "react-icons/fi";
 import { MdPermPhoneMsg } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
-const Footer = () => {
+const Footer = ({ slogan }) => {
     return (
         <div className='min-h-screen flex flex-col bg-[#524466] dark:bg-black'>
             <footer className='relative min-h-screen'>
@@ -24,7 +24,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="w-full md:ps-5 py-5">
-                                <p className='text-white leading-8 px-4 text-lg font-quicksand'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima culpa ea hic ipsam dicta earum minus, reiciendis ullam iste?</p>
+                                <p className='text-white leading-8 px-4 text-lg font-quicksand'>{slogan}</p>
                             </div>
                         </div>
                     </div>
