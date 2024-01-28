@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Petit+Formal+Script&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .clip-irregular-shape {
+        clip-path: polygon(14% 0, 89% 14%, 100% 31%, 100% 85%, 20% 100%, 0 89%, 0 24%);
+    }
+}
