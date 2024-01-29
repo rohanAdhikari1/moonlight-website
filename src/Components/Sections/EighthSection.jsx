@@ -1,13 +1,13 @@
 import React from 'react'
 
-const SeventhSection = () => {
+const EighthSection = () => {
     return (
         <div className='min-h-screen dark:bg-black bg-gray-50 dark:border-b-2 dark:border-white pb-16'>
             <div className='flex justify-center items-center'>
-                <h1>Coourse Category</h1>
+                <h1>Latest Bolgs</h1>
             </div>
         </div>
     )
 }
 
-export default SeventhSection
+export default EighthSection

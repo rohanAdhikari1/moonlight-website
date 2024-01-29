@@ -1,0 +1,14 @@
+{
+    "backgroundImage":"https://moonlightmodel.com.np/school.jpg",
+    "introduction":{
+        "image":"https://moonlightmodel.com.np/schoolbuilding.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima culpa ea hic ipsam dicta earum minus, reiciendis ullam iste?"
+    },
+    "welcome":[
+        {
+            "name":"Khem ADhikari",
+            "designation" : "The Vice Principle",
+            "message":"Some thing Some thing Some thing"
+        }
+    ]
+}

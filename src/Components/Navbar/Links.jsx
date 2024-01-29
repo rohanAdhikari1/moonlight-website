@@ -6,7 +6,7 @@ export const links = [
         name: "About", submenu: true, sublinks: [
             {
                 name: "About Us",
-                link: "/aboutus"
+                link: "/about/aboutus",
             },
             {
                 name: "Mission & Vision",

@@ -53,7 +53,7 @@ const NavLinks = () => {
                                                 link.sublinks.map((sublink, key) => (
                                                     <div key={key} className='px-3 py-2 my-1 w-full rounded bg-white dark:bg-black'>
                                                         <li className='text-sm'>
-                                                            <Link to={sublink.link} className='font-[inter] text-sm text-gray-800 hover:text-primary'>{sublink.name}</Link></li>
+                                                            <Link to={sublink.link} className='font-[inter] text-sm dark:text-white text-gray-800 hover:text-primary'>{sublink.name}</Link></li>
                                                     </div>
                                                 ))
                                             }

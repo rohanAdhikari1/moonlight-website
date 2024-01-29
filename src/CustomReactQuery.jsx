@@ -2,7 +2,6 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 
 const CustomReactQuery = (url) => {
-    console.log("Mounted..")
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState('')
     const [data, setData] = useState('');
@@ -22,8 +21,7 @@ const CustomReactQuery = (url) => {
                 setLoading(false);
             }
         };
-
-        return () => fetchData();
+        fetchData();
     }, [])
 
     return { loading, error, data }

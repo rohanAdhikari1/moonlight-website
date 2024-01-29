@@ -14,6 +14,22 @@ export const SlideInRightAnimationVariants = {
     },
 }
 
+export const SlideInRightTextAnimationVariants = {
+    initial: {
+        opacity: 0,
+        x: -90,
+    },
+    animate: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            duration: 1,
+            // type: "spring",
+            // stiffness: 50
+        }
+    },
+}
+
 export const SlideInLeftAnimationVariants = {
     initial: {
         opacity: 0,
@@ -23,7 +39,7 @@ export const SlideInLeftAnimationVariants = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 2
+            duration: 1
         }
     },
 }

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const ThirdSection = ({ data }) => {
     return (
-        <div className='min-h-screen dark:bg-black bg-slate-50 dark:border-b-2 dark:border-white pb-16'>
+        <div className='min-h-screen dark:bg-black bg-slate-100 dark:border-b-2 dark:border-white pb-16'>
             <div className='pt-10 pb-6 flex flex-col items-center justify-center'>
                 <h1 className='font-extrabold text-[32px] text-primary dark:text-white leading-6 pb-4 font-quicksand'>
                     Welcome Message
