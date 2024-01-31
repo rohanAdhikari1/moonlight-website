@@ -8,7 +8,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const HomeLayout = React.lazy(() => import('./Layouts/HomeLayout'));
 const Error404 = React.lazy(() => import('./Layouts/Error404.jsx'));
-const About = React.lazy(() => import('./Layouts/About.jsx'));
+const AboutUs = React.lazy(() => import('./Layouts/AboutUs.jsx'));
+const GovernBody = React.lazy(() => import('./Layouts/GovernBody.jsx'));
+const MissionVission = React.lazy(() => import('./Layouts/mission-Vission.jsx'));
+const OurTeam = React.lazy(() => import('./Layouts/OurTeam.jsx'));
+const Philosophy = React.lazy(() => import('./Layouts/Philosophy.jsx'));
+const Programs = React.lazy(() => import('./Layouts/Programs.jsx'));
+const Data = React.lazy(() => import('./Layouts/Data.jsx'));
 
 const loading = (
   <div
@@ -31,7 +37,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route element={<App />} >
             <Route index element={<HomeLayout />} />
-            <Route path='/about' element={<About />} />
+            <Route path='/about/about-us' element={<AboutUs />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/about/governing-body' element={<GovernBody />} />
+            <Route path='/about/mission-vission' element={<MissionVission />} />
+            <Route path='/about/philosophy' element={<Philosophy />} />
+            <Route path='/about/team' element={<OurTeam />} />
+            <Route path='/programs' element={<Programs />} />
+            <Route path='/data/:apiname/:id' element={<Data />} />
             <Route path='*' element={<Error404 />} />
           </Route>
         </Routes>

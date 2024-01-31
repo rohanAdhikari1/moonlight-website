@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
 import { SlideInRightTextAnimationVariants } from "../assets/Animation"
 
-const Header = ({ title, backgroundImage }) => {
+const Header = ({ title, backgroundImage, minititle }) => {
     return (
         <div className='w-full h-auto dark:border-b-2 dark:border-white'>
-            <div className='min-h-[30vh] md:min-h-[60vh] relative shadow-inner bg-cover bg-no-repeat bg-center w-full rounded dark:bg-black' style={{ backgroundImage: "url('/school.jpg')" }}>
+            <div className='min-h-[30vh] md:min-h-[60vh] relative shadow-inner bg-cover bg-no-repeat bg-center w-full rounded dark:bg-black' style={{ backgroundImage: `url(${backgroundImage ? backgroundImage : '/school.jpg'})` }}>
                 <div className='absolute h-full w-full bg-gradient-to-t from-[#0c0d0e] to-transparent from-0% to-100%'>
                     <div className='bottom-[15%] absolute flex flex-col ms-[6%]'>
                         <motion.div
@@ -15,7 +15,7 @@ const Header = ({ title, backgroundImage }) => {
                             whileInView="animate"
                             viewport={{
                                 once: true
-                            }} className='text-white text-xl md:text-2xl leading-6 font-bold font-quicksand'>Mission & Vission</motion.div>
+                            }} className='text-white text-xl md:text-2xl leading-6 capitalize font-bold font-quicksand'>{title}</motion.div>
                         <motion.div
                             variants={SlideInRightTextAnimationVariants}
                             initial="initial"
@@ -26,8 +26,8 @@ const Header = ({ title, backgroundImage }) => {
                             <div className='text-white md:text-lg leading-3 font-quicksand'>
                                 <Link to='/' className='hover:text-primary mt-1'>Home</Link> {'>'}
                             </div>
-                            <div className='text-white md:text-lg ms-2 leading-3 font-quicksand'>
-                                Mission & Vision
+                            <div className='text-white capitalize md:text-lg ms-2 leading-3 font-quicksand'>
+                                {minititle || title}
                             </div>
                         </motion.div>
                     </div>

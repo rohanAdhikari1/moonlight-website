@@ -2,6 +2,7 @@ import React from 'react'
 import schoolbuilding from '../../assets/schoolbuilding.jpg'
 import { motion } from "framer-motion"
 import { SlideInRightAnimationVariants, SlideInLeftAnimationVariants } from "../../assets/Animation"
+import { Link } from 'react-router-dom'
 
 const SecoundSection = ({ introduction }) => {
     return (
@@ -31,7 +32,14 @@ const SecoundSection = ({ introduction }) => {
                         {introduction ? introduction.description : schoolbuilding}
                     </p>
                     <div>
-                        <button className='font-quicksand dark:shadow-none dark:hover:border-slate-600 dark:hover:bg-slate-600 rounded-full my-8 py-3 px-4 text-primary dark:text-white dark:border-white border-2 shadow-2xl hover:bg-red-500 hover:text-white transition duration-500 transform translate-x-1 translate-y-1 hover:border-red-500 ease-out shadow-primary hover:shadow-red-500 border-primary'>Read More</button>
+                        <Link to="/about/about-us"><button
+                            className='font-quicksand dark:shadow-none dark:hover:border-slate-600 dark:hover:bg-slate-600 rounded-full my-8 
+                        py-3 px-4 text-primary dark:text-white dark:border-white border-2 
+                        shadow-2xl hover:bg-red-500 hover:text-white transition duration-500 
+                        transform translate-x-1 translate-y-1 hover:border-red-500 ease-out
+                         shadow-primary hover:shadow-red-500 border-primary'>
+                            Read More
+                        </button></Link>
                     </div>
                 </div>
             </motion.div>

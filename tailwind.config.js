@@ -12,6 +12,7 @@ export default {
         petitFormal: ["Petit Formal Script"],
         quicksand: ["Quicksand", "sans-serif"],
         russonOne: ["Russon One"],
+        body: ["Times New Roman", "Times", "serif"],
       },
     },
   },

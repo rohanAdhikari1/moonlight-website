@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { GoChevronUp } from "react-icons/go";
 import { GoChevronDown } from "react-icons/go";
 import { links } from "./Links";
-const NavLinks = () => {
+const NavLinks = ({ setmbmenu }) => {
     const [heading, setheading] = useState("");
     return (
         <>
@@ -52,14 +52,15 @@ const NavLinks = () => {
                                             {
                                                 link.sublinks.map((sublink, key) => (
                                                     <div key={key} className='px-3 py-2 my-1 w-full rounded bg-white dark:bg-black'>
-                                                        <li className='text-sm'>
-                                                            <Link to={sublink.link} className='font-[inter] text-sm dark:text-white text-gray-800 hover:text-primary'>{sublink.name}</Link></li>
+                                                        <Link to={sublink.link} className='w-full'> <li className='text-sm' onClick={() => setmbmenu(false)}>
+                                                            <span className='font-[inter] text-sm dark:text-white text-gray-800 hover:text-primary w-full'>{sublink.name}</span></li>
+                                                        </Link>
                                                     </div>
                                                 ))
                                             }
                                         </div>
                                     </div></>
-                            ) : (<Link to={link.link}> <span className='text-white  font-[inter] '>{link.name}</span></Link>)
+                            ) : (<div className='w-full'><Link to={link.link} onClick={() => setmbmenu(false)} className='w-full'> <span className='text-white  font-[inter] w-full'>{link.name}</span></Link></div>)
                         }
                     </div>
                 </div >

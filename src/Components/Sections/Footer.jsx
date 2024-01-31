@@ -34,7 +34,7 @@ const Footer = ({ slogan }) => {
                                 <h2 className='text-white font-bold text-xl'>Navigation</h2>
                                 <ul className='leading-10 py-3 text-lg text-white'>
                                     {links.map((navtext, key) => (
-                                        <li key={key} className='hover:text-primary hover:underline'><Link>{navtext.name}</Link></li>
+                                        <li key={key} className='hover:text-primary hover:underline'><Link to={navtext.link}>{navtext.name}</Link></li>
                                     ))}
                                 </ul>
                             </div>
@@ -55,9 +55,9 @@ const Footer = ({ slogan }) => {
                                     </li>
                                     <li className="flex hover:text-primary hover:underline py-2">
                                         <FaLocationDot className='my-1 mx-2' />
-                                        <Link to="https://maps.app.goo.gl/3UvqBwavuEvsaTvp8" className='text-lg'>
+                                        <a target='_blank' href="https://maps.app.goo.gl/3UvqBwavuEvsaTvp8" className='text-lg'>
                                             Ratuwamai-4, Morang
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -67,7 +67,7 @@ const Footer = ({ slogan }) => {
                 <div className="absolute bottom-10 left-0 right-0 p-4 text-white">
                     <div className='flex justify-between flex-wrap md:px-24 gap-4'>
                         <div className='flex-start font-quicksand'>© Copyright 2024 Moonlight Model English Academy All Rights Reserved</div>
-                        <div className='flex-end font-quicksand'>Developed by: <Link to='' className='underline underline-offset-4 hover:text-primary'>Rohan Adhikari</Link></div>
+                        <div className='flex-end font-quicksand'>Developed by: <a target='_blank' href='https://rohanadhikari.com.np/' className='underline underline-offset-4 hover:text-primary'>Rohan Adhikari</a></div>
                     </div>
                 </div>
             </footer >

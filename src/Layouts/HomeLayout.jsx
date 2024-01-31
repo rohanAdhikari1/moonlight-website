@@ -9,9 +9,24 @@ import SixthSection from '../Components/Sections/SixthSection'
 import SeventhSection from '../Components/Sections/SeventhSection'
 import EighthSection from '../Components/Sections/EighthSection'
 import CustomReactQuery from '../CustomReactQuery'
+import { RingLoader } from 'react-spinners'
 
 const HomeLayout = () => {
     const { loading, error, data } = CustomReactQuery('dummyhome.json')
+    if (loading) {
+        return (
+            <div
+                style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                }}
+            >
+                <RingLoader color="blue" size={100} />
+            </div>
+        )
+    }
     return (
         <div>
             <FloatingButton />
@@ -35,7 +50,7 @@ const HomeLayout = () => {
                     <FourthSection />
                 </div>
             </section>
-            <section>
+            {/* <section>
                 <div className="content-wrapper">
                     <FifthSection />
                 </div>
@@ -44,7 +59,7 @@ const HomeLayout = () => {
                 <div className="content-wrapper">
                     <SixthSection />
                 </div>
-            </section>
+            </section> */}
             <section>
                 <div className="content-wrapper">
                     <SeventhSection />

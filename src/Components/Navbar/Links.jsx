@@ -3,26 +3,26 @@ export const links = [
         name: "Home", submenu: false, link: "/"
     },
     {
-        name: "About", submenu: true, sublinks: [
+        name: "About", submenu: true, link: "/about/about-us", sublinks: [
             {
                 name: "About Us",
-                link: "/about/aboutus",
+                link: "/about/about-us",
             },
             {
                 name: "Mission & Vision",
-                link: "/ch"
+                link: "/about/mission-vission"
             },
             {
                 name: "Our Philosophy",
-                link: "/ch"
+                link: "/about/philosophy"
             },
             {
                 name: "Governing Body",
-                link: "/ch"
+                link: "/about/governing-body"
             },
             {
                 name: "Our Team",
-                link: "/ch"
+                link: "/about/team"
             }
         ]
     },
@@ -30,26 +30,26 @@ export const links = [
         name: "Programs", submenu: false, link: "programs"
     },
     {
-        name: "Information Center", submenu: true, sublinks: [
+        name: "Information Center", submenu: true, link: "/information-center/news", sublinks: [
             {
                 name: "News",
-                link: "/aboutus"
+                link: "/information-center/news"
             },
             {
                 name: "Blogs",
-                link: "/ch"
+                link: "/information-center/blogs"
             },
             {
                 name: "Facilities",
-                link: "/ch"
+                link: "/information-center/facilities"
             },
             {
                 name: "School Calender",
-                link: "/ch"
+                link: "/information-center/calender"
             },
             {
                 name: "ECA",
-                link: "/ch"
+                link: "/information-center/ECA"
             }
         ]
     },

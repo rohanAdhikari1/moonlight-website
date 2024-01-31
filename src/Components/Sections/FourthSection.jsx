@@ -56,7 +56,7 @@ const FourthSection = () => {
                     {tabs.map((value, key) =>
                     (<div key={key} onClick={() => setactivetab(key)} className="lg:w-1/6 cursor-pointer md:w-1/3 w-full min-h-40 lg:gap-0 lg:px-3">
                         <div className="relative w-full h-full flex">
-                            <div className={`${activetab == key ? 'bg-red-500 dark:bg-red-500' : value.bg || 'bg-pink-200'} dark:bg-zinc-800 h-full max-h-[160px] w-full rounded-xl`}>
+                            <div className={`${activetab == key ? 'bg-red-500 dark:bg-red-500' : 'dark:bg-zinc-800 ' + (value.bg || 'bg-pink-200')} h-full max-h-[160px] w-full rounded-xl`}>
                                 <div className="flex items-center justify-center flex-col h-full">
                                     {value.icon && <img className={`object-cover h-1/3 ${activetab == key ? 'invert' : 'invert-0'} dark:invert`} src={value.icon} alt={value.name} />}
                                     <div className={`font-bold mt-1 font-quicksand ${activetab == key ? 'text-white' : 'text-[#100c16]'} dark:text-white text-base text:black`}>

@@ -77,7 +77,7 @@ const Navbar = ({ contacts }) => {
                 </div>
                 {/* Mobile Nav */}
                 <ul className={`bg-primary z-30  dark:bg-black  fixed w-full h-full top-6 bottom-0 py-10 pl-4 text-base font-quicksand md:hidden duration-500 ${mbmenu ? "left-0" : "left-[-100%]"}`}>
-                    <NavLinks />
+                    <NavLinks setmbmenu={setmbmenu} />
                 </ul>
             </nav>
             <GoToTopButton isVisible={isVisible} />
