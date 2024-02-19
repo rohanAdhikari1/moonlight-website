@@ -15,6 +15,7 @@ const OurTeam = React.lazy(() => import('./Layouts/OurTeam.jsx'));
 const Philosophy = React.lazy(() => import('./Layouts/Philosophy.jsx'));
 const Programs = React.lazy(() => import('./Layouts/Programs.jsx'));
 const Data = React.lazy(() => import('./Layouts/Data.jsx'));
+const Temp = React.lazy(() => import('./Layouts/TempServices.jsx'))
 
 const loading = (
   <div
@@ -30,26 +31,27 @@ const loading = (
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Suspense fallback={loading}>
+  // <React.StrictMode>
+  <BrowserRouter>
+    <Suspense fallback={loading}>
 
-        <Routes>
-          <Route element={<App />} >
-            <Route index element={<HomeLayout />} />
-            <Route path='/about/about-us' element={<AboutUs />} />
-            <Route path='/about' element={<AboutUs />} />
-            <Route path='/about/governing-body' element={<GovernBody />} />
-            <Route path='/about/mission-vission' element={<MissionVission />} />
-            <Route path='/about/philosophy' element={<Philosophy />} />
-            <Route path='/about/team' element={<OurTeam />} />
-            <Route path='/programs' element={<Programs />} />
-            <Route path='/data/:apiname/:id' element={<Data />} />
-            <Route path='*' element={<Error404 />} />
-          </Route>
-        </Routes>
-      </Suspense>
+      <Routes>
+        <Route element={<App />} >
+          <Route index element={<HomeLayout />} />
+          <Route path='/about/about-us' element={<AboutUs />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/about/governing-body' element={<GovernBody />} />
+          <Route path='/about/mission-vission' element={<MissionVission />} />
+          <Route path='/about/philosophy' element={<Philosophy />} />
+          <Route path='/about/team' element={<OurTeam />} />
+          <Route path='/programs' element={<Programs />} />
+          <Route path='/data/:apiname/:id' element={<Data />} />
+          <Route path='/service/:id' element={<Temp />} />
+          <Route path='*' element={<Error404 />} />
+        </Route>
+      </Routes>
+    </Suspense>
 
-    </BrowserRouter>
-  </React.StrictMode>,
+  </BrowserRouter>
+  // </React.StrictMode>,
 )

@@ -5,7 +5,7 @@ import MiniFooter from '../Components/MiniFooter'
 const OurTeam = () => {
     return (
         <div>
-            <Header title="Our Team" />
+            <Header title="Our Team" backgroundImage={"/ourTeam.webp"} />
             <div className='flex flex-col w-[90%] mx-auto py-2 mb-9'>
                 <div className='border-b-2 dark:boder-white'>
                     <p className='dark:text-white font-body text-[#323239] text-lg py-12'>

@@ -40,10 +40,6 @@ export const links = [
                 link: "/information-center/blogs"
             },
             {
-                name: "Facilities",
-                link: "/information-center/facilities"
-            },
-            {
                 name: "School Calender",
                 link: "/information-center/calender"
             },

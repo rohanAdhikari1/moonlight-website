@@ -9,7 +9,6 @@ import { HashLoader } from 'react-spinners'
 const EighthSection = () => {
     const { loading, error, data } = CustomReactQuery('dummyblogs.json')
 
-
     const loadingdiv = <div className='flex items-center min-h-screen justify-center'>
         <HashLoader color="#12a5bf" size={100} />
     </div>;

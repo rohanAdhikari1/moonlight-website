@@ -1,5 +1,11 @@
 [
     {
+        "image":"/blog3.jpg",
+        "title":"Saraswoti Puja",
+        "date":"February 14",
+        "content":"At Moonlight Model English Academy, Saraswati Puja was celebrated with a blend of reverence and joy. Students, parents, and teachers came together, adorned in traditional attire, to partake in sacred rituals and the Akṣarārambha ceremony. The air was filled with incense and hymns as Tika rituals marked the blessing of wisdom. Children took their first steps in learning, guided by teachers and supportive families. The celebration fostered a spirit of unity and gratitude, with cultural performances enhancing the vibrant atmosphere. As the day concluded, hearts were filled with contentment and prayers for continued enlightenment on the path of learning."
+    },
+    {
         "image":"/blog1.jpg",
         "title":"Class 11, 12 picnic at Salbari",
         "date":"December 23",
@@ -12,27 +18,21 @@
         "content":"पुर्वी नेपालको सुनसरी जिल्ला रामधुनी नगरपालिका वडा नं. ७ बक्लौरीको राष्ट्रिय विभूतिबाट सम्मानित इमानसिंह चेम्जोङ स्मृति प्रतिष्ठान पार्क अर्थात रास तालमा मिति २०८० मंसिर ३० गते शनिबार  वनभोज कार्यक्रम"
     },
     {
-        "image":"/school.jpg",
-        "title":"Some thing Title Something",
-        "date":"1 janauary",
-        "content":"something by somwthing .... something something something something check check"
+        "image":"/blog5.jpg",
+        "title":"Dance Performance",
+        "date":"November 24, 2023",
+        "content":"शुभ दिपावली तथा छठ पर्व २०८० को पावन अवसरमा सिद्धार्थ युवा क्लबद्वारा आयोजित बृहत लोक साँस्कृतिक कार्यक्रममा मूनलाइट  विद्यालयका विद्यार्थी सहभागी भइ प्रमाणपत्र , मेडल र नगदसहित पुरस्कृत ।"
     },
     {
-        "image":"/school.jpg",
-        "title":"Some thing Title Something",
-        "date":"1 janauary",
-        "content":"something by somwthing .... something something something something check check"
+        "image":"/blog6.jpg",
+        "title":"Dance Performance",
+        "date":"October 23, 2022",
+        "content":"रतुवामाई नगरपालिका वडा नम्बर ५ गविन्दपुर मोरङमा  अवस्थित  संघर्षशिल युवा क्लबद्वारा आयोजित २०७९ सालको  शुभ दिपावली तथा छठ पर्वको पावन अवसरमा विद्यालय स्तरिय बृहत् संस्कृतिक नृत्य प्रतियोगितामा मुनलाइट विद्यालयको प्रस्तुति"
     },
     {
-        "image":"/school.jpg",
-        "title":"Some thing Title Something",
-        "date":"1 janauary",
-        "content":"something by somwthing .... something something something something check check"
-    },
-    {
-        "image":"/school.jpg",
-        "title":"Some thing Title Something",
-        "date":"1 janauary",
-        "content":"something by somwthing .... something something something something check check"
+        "image":"/blog4.jpg",
+        "title":"Dance Performance",
+        "date":"November 2, 2022",
+        "content":"सिद्धार्थ युवा क्लव शनिश्चरेद्वारा आयोजित बृहत साँस्कृतिक कार्यक्रममा मूनलाईट मोडल इंगलिश एकडेमीका विद्यार्थीहरूले आफ्नो कला प्रदर्शन गरेर प्रथम स्थान हासिल गरेका छन्।"
     }
 ]

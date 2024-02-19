@@ -2,13 +2,18 @@
     "backgroundImage":"https://moonlightmodel.com.np/school.jpg",
     "introduction":{
         "image":"https://moonlightmodel.com.np/schoolbuilding.jpg",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima culpa ea hic ipsam dicta earum minus, reiciendis ullam iste?"
+        "description": "🌙 Welcome to Moonlight Model English Academy! 🌟\n\nNestled in the heart of Nepal, in the vibrant community of Morang, lies a beacon of educational excellence – Moonlight Model English Academy. Established in 2056, our institution has been a cornerstone of quality education, illuminating the path to success for countless students. Situated in the serene surroundings of Ratuwamai Ward-04, Aambari, our academy stands as a testament to dedication and commitment to nurturing young minds.\n\nAt Moonlight Model English Academy, we cater to students from diverse backgrounds, providing a comprehensive learning environment from nursery to grades 1 through 12. Our curriculum is designed to foster holistic development, ensuring that each student receives the tools and knowledge necessary to thrive in today's ever-evolving world.\n\nFrom the early foundational years of nursery, LKG, and UKG, to the crucial stages of primary and secondary education, we strive to instill a love for learning and curiosity in every student. Our experienced faculty members are dedicated to cultivating critical thinking, creativity, and character development, preparing our students to become responsible global citizens.\n\nMoreover, for those aspiring to pursue higher education in management, our academy offers specialized courses for grades 11 and 12. With a focus on practical skills and theoretical knowledge, we equip our students with the expertise needed to excel in the dynamic field of management.\n\nAt Moonlight Model English Academy, we believe in nurturing not only academic excellence but also in fostering a supportive and inclusive community where every student feels valued and empowered to reach their full potential.\n\nJoin us on this enlightening journey as we illuminate the path to a brighter future at Moonlight Model English Academy."
     },
     "welcome":[
         {
-            "name":"Khem ADhikari",
-            "designation" : "The Vice Principle",
-            "message":"Some thing Some thing Some thing"
+            "name":"Krishna Prasad Dhakal",
+            "designation" : "The Principal",
+            "message":"Welcome to Moonlight Model English Academy!\n\nIt brings me immense joy to extend a heartfelt welcome to our esteemed community, dedicated to nurturing academic excellence and fostering holistic development. With a passionate team of educators and an enriching curriculum, we are committed to empowering each student to realize their fullest potential. As Principal, I stand ready to provide unwavering support and guidance throughout your educational journey. Please do not hesitate to reach out with any inquiries or concerns—I am here to offer assistance and encouragement. Together, let us embark on this transformative journey, where the brilliance of every student shines brightly, akin to the guiding light of the moon. In our nurturing environment, grounded in principles of integrity, empathy, and resilience, we prepare students to thrive in an ever-evolving world. Welcome, and let us seize every opportunity to learn, grow, and inspire positive change as we navigate towards a promising future."
+        },
+        {
+            "name":"Khem Adhikari",
+            "designation" : "The Vice Principal",
+            "message":"Welcome to Moonlight Model English Academy!\n\nI extend a warm welcome to our esteemed community committed to academic excellence and holistic development. With a dedicated team of educators and a comprehensive curriculum, we're here to empower you to reach your fullest potential. As Vice Principal, I'm dedicated to supporting and guiding you through your academic journey. Don't hesitate to reach out with any questions or concerns—I'm here to listen and assist. Together, let's embark on this journey where each student's brilliance shines like the moonlight guiding our path. Our nurturing environment fosters values of integrity, compassion, and resilience, preparing you for success in a rapidly changing world. Welcome aboard, and let's seize every opportunity to learn, grow, and make a positive impact as we journey towards a brighter future."
         }
     ]
 }

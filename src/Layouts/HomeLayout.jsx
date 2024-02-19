@@ -27,7 +27,7 @@ const HomeLayout = () => {
             </div>
         )
     }
-    return (
+    if (data != []) return (
         <div>
             <FloatingButton />
             <section>
@@ -50,12 +50,12 @@ const HomeLayout = () => {
                     <FourthSection />
                 </div>
             </section>
-            {/* <section>
+            <section>
                 <div className="content-wrapper">
                     <FifthSection />
                 </div>
             </section>
-            <section>
+            {/* <section>
                 <div className="content-wrapper">
                     <SixthSection />
                 </div>
@@ -72,6 +72,7 @@ const HomeLayout = () => {
             </section>
         </div>
     )
+
 }
 
-export default HomeLayout
+export default React.memo(HomeLayout)

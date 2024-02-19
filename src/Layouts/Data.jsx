@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom'
 
 const Data = () => {
     const { apiname, id } = useParams();
+
     const { loading, error, data } = CustomReactQuery('/dummyblogs.json')
     if (loading || error != '') {
         return (

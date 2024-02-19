@@ -32,7 +32,7 @@ const SeventhSection = () => {
                             <div className='border-b'>
                                 <div className='flex flex-col items-center justify-center pb-4 pt-8'>
                                     <div className='rounded-full bg-cover bg-center h-28 w-28 drop-shadow-sm' style={{ backgroundImage: `url(${'/school.jpg'})` }}></div>
-                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-lg uppercase font-quicksand'>Early Childhood Education</h1></Link>
+                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-base uppercase font-quicksand'>Early Childhood Education</h1></Link>
                                 </div>
                             </div>
                             <div className='flex items-center flex-col'>
@@ -60,7 +60,7 @@ const SeventhSection = () => {
                             <div className='border-b'>
                                 <div className='flex flex-col items-center justify-center pb-4 pt-8'>
                                     <div className='rounded-full bg-cover bg-center h-28 w-28 drop-shadow-sm' style={{ backgroundImage: `url(${'/school.jpg'})` }}></div>
-                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-lg uppercase font-quicksand'>Basic Level Education</h1></Link>
+                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-base uppercase font-quicksand'>Basic Level Education</h1></Link>
                                 </div>
                             </div>
                             <div className='flex items-center flex-col'>
@@ -90,7 +90,7 @@ const SeventhSection = () => {
                             <div className='border-b'>
                                 <div className='flex flex-col items-center justify-center pb-6 pt-8'>
                                     <div className='rounded-full bg-cover bg-center h-28 w-28 drop-shadow-sm' style={{ backgroundImage: `url(${'/school.jpg'})` }}></div>
-                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-lg uppercase font-quicksand'>Secondary Level Education</h1></Link>
+                                    <Link><h1 className='mt-6 font-semibold hover:text-primary cursor-pointer dark:text-white text-gray-700 text-base uppercase font-quicksand'>Secondary Level Education</h1></Link>
                                 </div>
                             </div>
                             <div className='flex items-center flex-col'>

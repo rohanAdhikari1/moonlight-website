@@ -28,8 +28,8 @@ const SecoundSection = ({ introduction }) => {
                     <h1 className='font-extrabold text-[32px] dark:text-white leading-6 pb-4 font-quicksand'>
                         Introduction
                     </h1>
-                    <p className='font-quicksand text-lg leading-10 dark:text-white'>
-                        {introduction ? introduction.description : schoolbuilding}
+                    <p style={{ whiteSpace: 'pre-line' }} className='font-quicksand text-lg line-clamp-[12] leading-10 dark:text-white'>
+                        {introduction ? introduction.description : "Lorem..."}
                     </p>
                     <div>
                         <Link to="/about/about-us"><button
@@ -47,4 +47,4 @@ const SecoundSection = ({ introduction }) => {
     )
 }
 
-export default SecoundSection
+export default React.memo(SecoundSection)

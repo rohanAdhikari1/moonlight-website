@@ -24,7 +24,7 @@ function App() {
     )
   }
 
-  return (
+  if (data != []) return (
     <>
       <div className='dark:bg-black w-full h-full overflow-hidden'>
         <Navbar contacts={data.contacts} />
